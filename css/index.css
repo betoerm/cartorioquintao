@@ -1,0 +1,98 @@
+body{
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    color: #8C352B;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.section-cover{    
+    padding: 3rem;  
+    background-image: linear-gradient(to bottom, rgba(176, 53, 43, 0.75), rgba(0, 0, 0, .75)), url(../images/cartorio.svg);
+    background-position: center center, center center;
+    background-size: cover, cover;    
+    background-repeat: repeat repeat;    
+    height: 500px;
+    color: #F8F1DE;          
+}
+
+.section-cover h1{
+    font-size: 3rem;
+    font-weight: 680;
+}
+
+.section-highlights{
+    padding: 3rem;  
+}
+
+.section-highlights h3, p{
+    color: #2c2726;
+}
+
+.btn{
+    background-color: #F8F1DE;
+}
+
+@media (min-width: 576px){
+    .navbar{
+        height: 7rem;
+    }
+
+    .section-cover{
+        height: 700px;
+    }
+
+    .section-cover h1{
+        font-weight: 780;
+        font-size: 5rem;
+    }
+
+    .section-cover h2{
+        font-size: 4rem;
+        padding: 3rem;
+    }
+
+    .section-highlights{
+        height: 400px;
+    }
+
+    footer{
+        padding: 8rem; 
+    }
+    
+} 
+
+
+iframe{
+    width: 100%;    
+    height: 500px;
+    border: none;    
+    padding: 0%;
+}
+
+
+footer{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .65), rgba(0, 0, 0, .65));
+    background-color: #8C352B;
+    background-position: center center, center center;
+    background-size: cover, cover;    
+    background-repeat: repeat repeat;    
+    height: 700px;     
+    color: #F8F1DE;
+     
+}
+
+footer a, footer .card-text{
+    color: #F8F1DE;
+}
