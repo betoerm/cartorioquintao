@@ -69,8 +69,8 @@ a {
 
     footer{
         padding: 8rem; 
-    }
-    
+        height: 600px;    
+    }    
 } 
 
 
@@ -84,15 +84,23 @@ iframe{
 
 footer{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .65), rgba(0, 0, 0, .65));
-    background-color: #8C352B;
-    background-position: center center, center center;
-    background-size: cover, cover;    
+    background-color: #8C352B;    
     background-repeat: repeat repeat;    
-    height: 700px;     
+   
     color: #F8F1DE;
+    padding: 3rem;
      
 }
 
 footer a, footer .card-text{
     color: #F8F1DE;
+}
+
+hr{
+    border-color: #4b1d18;   
+}
+
+#direitos{
+    padding: 0%;
+    margin: 0%;    
 }
