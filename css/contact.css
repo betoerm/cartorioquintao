@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #61251E;}
+
+a{
+    text-decoration: none;
+    color: #61251E;
+}
+
+.contact-escreventes{
+    width: 100%;
+    height: 100%;    
+    background-color: #542315;
+    background-position: center center, center center;
+    background-size: cover, cover;    
+    background-repeat: repeat repeat;  
+    border-color: transparent;    
+    padding: 8px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    letter-spacing: -.45px;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact-escreventes h1{
+    padding: 20px 0 20px; 
+    color: #F8F1DE; 
+}
+
+.contact-escreventes hr{
+    border-color: #F8F1DE;  
+}
+
+.contact-form{
+    height: 700px;
+}
+
+.contact-form .col-sm{
+    padding-top: 3rem;    
+}
+
+.contact-form input{
+    border: none;
+}
+
+.contact-form textarea{
+    border: none;
+}
+
+.row{
+    padding: 1rem;
+}
+
+.card{
+    width: 22rem;     
+    animation: slideInDown;
+}
+
+.card-text{
+    font-size: medium;
+}
+
+.btn-whatsapp{
+    padding: 10px 80px;
+    background-image: url(../images/WhatsApp_Logo.png);
+    background-position: center center, center center;
+    background-size: cover, cover;    
+    background-repeat: repeat repeat; 
+    border-color: #61251E;
+    border: 2px solid;    
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.btn-enviar{
+    padding: 8px 40px;
+    background-color: transparent;
+    border-color: #61251E;
+    border: 2px solid;    
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.btn-enviar:hover{
+    background-color: #61251E;
+    color: #F8F1DE; 
+
+}
+
+hr{
+    padding-bottom: .5rem;
+}
+
+.contact-duvidas{
+    padding-top: 2rem;
+}
+

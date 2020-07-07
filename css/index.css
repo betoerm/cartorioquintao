@@ -1,6 +1,7 @@
 body{
     background-color: white;
     font-family: 'Roboto Condensed', sans-serif;
+    color: #61251E;
 }
 
 .container {
@@ -12,7 +13,7 @@ body{
 }
 
 a {
-    color: #8C352B;
+    color: #61251E;
     text-decoration: none;
     background-color: transparent;
 }
@@ -27,9 +28,36 @@ a {
     color: #F8F1DE;          
 }
 
-.section-cover h1{
+.section-contato{
+    padding: 3rem;      
+    height: 700px;
+    background-position: center center, center center;
+    background-size: cover, cover;    
+    background-repeat: repeat repeat; 
+    background-color: #61251E;
+    color: #F8F1DE;   
+}
+
+.section-cover p{
+    color: #F8F1DE; 
+}
+
+h1{
     font-size: 3rem;
     font-weight: 680;
+}
+
+.carousel-col{
+    visibility: hidden;    
+    display: flex;
+}
+
+.carousel-indicators{    
+    padding-top: 10%;
+}
+
+.carousel-inner p{
+    color: #F8F1DE; 
 }
 
 .section-highlights{
@@ -37,10 +65,10 @@ a {
 }
 
 .section-highlights h3, p{
-    color: #2c2726;
+    color: #61251E;
 }
 
-.btn{
+.section-cover .btn{
     background-color: #F8F1DE;
 }
 
@@ -53,7 +81,7 @@ a {
         height: 700px;
     }
 
-    .section-cover h1{
+    h1{
         font-weight: 780;
         font-size: 5rem;
     }
@@ -63,6 +91,20 @@ a {
         /*padding: 3rem;*/
     }
 
+    .section-contato p{
+        font-size: 25px; 
+        color: #F8F1DE;
+    }
+
+    .carousel-col{
+        visibility: visible;        
+    }
+    
+    .carousel{
+        
+        padding-top: 25%;
+        width: 75%;
+    }
     .section-highlights{
         height: 400px;
     }
@@ -70,13 +112,20 @@ a {
     footer{
         padding: 8rem; 
         height: 600px;    
-    }    
+    }  
+    
+    iframe{
+        width: 100%;    
+        height: 500px;
+        border: none;    
+        padding: 0%;
+    }
 } 
 
 
 iframe{
     width: 100%;    
-    height: 500px;
+    height: 400px;
     border: none;    
     padding: 0%;
 }
@@ -84,7 +133,7 @@ iframe{
 
 footer{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, .65), rgba(0, 0, 0, .65));
-    background-color: #8C352B;    
+    background-color: #61251E;    
     background-repeat: repeat repeat;    
    
     color: #F8F1DE;
@@ -92,7 +141,7 @@ footer{
      
 }
 
-footer a, footer .card-text{
+footer a, footer p, footer .card-text{
     color: #F8F1DE;
 }
 
@@ -106,5 +155,42 @@ hr{
 }
 
 .footer-contato{
-    color: #8C352B;
+    color: #61251E;
+}
+
+.footer-bar {
+    text-align: center;
+    font-size: .75rem;
+    padding: 22px 0;
+}
+
+.footer-bar p{
+    color: #61251E;
+} 
+
+.whatsapp{
+    width: 100px;
+    height: 50px;
+}
+
+.form-label {    
+    font-size: .8rem;
+    text-transform: uppercase;
+    
+}
+
+.btn-enviar{
+    padding: 8px 40px;
+    background-color: transparent;
+    border-color: #61251E;
+    border: 2px solid;    
+    text-decoration: none;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+.btn-enviar:hover{
+    background-color: #61251E;
+    color: #F8F1DE; 
+
 }
