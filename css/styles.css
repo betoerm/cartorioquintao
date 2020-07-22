@@ -1,0 +1,66 @@
+body{
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+a {
+    color: #A53F33;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.top-row{
+    padding-top: 2rem;
+    color: #A53F33; 
+}
+
+.material-icons.md-48 { 
+    font-size: 48px; 
+    color: #A53F33;    
+}
+
+.social{
+    padding-top: 3rem;    
+}
+
+.social a{
+    padding: 10px;
+}
+
+.navbar{
+    background-color: #A53F33;
+}
+
+.navbar a{
+    color: white;
+}
+
+#menu{
+    visibility: hidden;   
+}
+
+@media (max-width: 576px) { 
+    .brand, .social{
+        padding-left: 17.5%;
+    }
+
+    .top-row .col-md-auto{
+        padding-top: 2rem;
+    }
+
+    
+    #menu{
+        visibility: visible;   
+    }
+}
+
+@media (min-width: 768px) { 
+    .top-row{
+        height: 288px;    
+    } 
+
+    .navbar{
+        height: 100px;
+    }
+}
