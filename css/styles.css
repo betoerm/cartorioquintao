@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto' sans-serif;
+    font-weight: 500;
+    color: #57617A;        
 }
 
 .header .navbar .navbar-brand {
@@ -157,3 +159,34 @@ hr{
     color: #F8F1DE; 
 
 }
+
+.section-perguntas h1 {
+    margin-top: 1rem;
+    font: 400 36px 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #57617A;      
+}
+
+.section-perguntas h2{
+    font: 400 18px 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #57617A;        
+}
+
+.section-perguntas .card {
+    margin-top: 1rem;
+}
+
+
+@media(min-width: 480px){
+    .section-perguntas h2{
+        font:24px 'Roboto', sans-serif;              
+    }
+
+    .section-perguntas h1{
+        margin-top: 1rem;
+        font: 400 36px 'Roboto', sans-serif;
+    }
+}
+
+
